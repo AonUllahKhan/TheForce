@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_div {
+    height: 625px;
+    width: 1366px;
+}
+
+.main_upper {
+    background: url(death_star.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.main_lower {
+    background: url(tatooine.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.main_upper .btn_div1 {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main_lower .btn_div2 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.a_upper {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #EDEADE;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.a_upper:hover {
+    color: #EDEADE;
+    background-color: #EB212E;
+    box-shadow: 0 0 10px #EB212E, 0 0 40px #EB212E, 0 0 80px #EB212E;
+    transition: 0.5s;
+}
+
+.a_lower {
+    position: relative;
+    display: inline-block;padding: 15px 30px;
+    color: #EDEADE;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.a_lower:hover {
+    color: #EDEADE;
+    background-color: #2FF924;
+    box-shadow: 0 0 10px #2FF924, 0 0 40px #2FF924, 0 0 80px #2FF924;
+    transition: 0.5s;
+}
